@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Courier+Prime|Montserrat:400,500,600&display=swap");
+ body{
+     background: linear-gradient(130deg, #111111, #1a1919 115%); 
+     max-height: 100vh;
+ }
+.topNavBar {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; */
+}
+.topNavBar li {
+    display: inline;
+}
+.linkedPage{
+    margin: 1em;
+    background: linear-gradient(130deg, #111111, #272525 115%); 
+    animation: moveIt 10s ease infinite ;
+    background-size: 400% 400%;
+    height: 70vh;
+}
+@keyframes moveIt {
+    0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.page2{
+    color: #f8f8f8;
+}
+.page3{
+
+}
+.linkedPage{
+    margin: 0;
+    min-height: 100%;
+}
+.navRoutes{
+    width: 100%;
+    min-height: 100%;
+}
+.footer {
+    text-align: center;
+    width: 100vw;
+}

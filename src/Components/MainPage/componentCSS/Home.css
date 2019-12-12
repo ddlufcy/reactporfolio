@@ -1,0 +1,25 @@
+.home{
+    margin: 0;
+    height: 90vh;
+    overflow-y: hidden;
+}
+.home h3 {
+    color: #f8f8f8;
+}
+.nameTitle{
+   line-height: 3em; 
+   margin-left: 2em;
+   margin-left: 2em;
+   position: relative;
+   top: 31em;
+}
+.nameTitle h3 {
+    margin: 0;
+    top: -2vh;
+    left: 1px;
+    font-size: 90px;
+    color: #f8f8f8f8;
+    letter-spacing: 2px;
+    font-kerning: auto;
+    font-family: 'Montserrat', sans-serif;
+}
