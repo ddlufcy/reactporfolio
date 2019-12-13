@@ -11,7 +11,7 @@
    margin-left: 2em;
    margin-left: 2em;
    position: relative;
-   top: 31em;
+   bottom: -51vh;
 }
 .nameTitle h3 {
     margin: 0;
@@ -22,4 +22,13 @@
     letter-spacing: 2px;
     font-kerning: auto;
     font-family: 'Montserrat', sans-serif;
+    animation: moveName 2s 1 ease;
+}
+@keyframes moveName{
+    from{
+        letter-spacing: 120px; 
+    }
+    to{
+        letter-spacing: 2px;
+    }
 }

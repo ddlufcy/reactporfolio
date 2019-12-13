@@ -1,0 +1,30 @@
+.footer{
+    color: #f8f8f8;
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    animation: moveFooter 1s 1 linear;
+}
+.footer h5{
+    display: inline;
+    margin-right: 1em;
+}
+.icon{
+    margin: 0px 5px 0px 5px;
+    font-size: 1.9rem;
+}
+a{
+    color: #f8f8f8;
+}
+.adress {
+    font-style: oblique;
+}
+
+@keyframes moveFooter {
+    from{
+        bottom: -50px;
+    }
+    to{
+        bottom: 0px;
+    }
+}

@@ -1,5 +1,6 @@
 li{
     color: #f8f8f8;
+    
 }
 .navLinks{
     /* position: relative;
@@ -8,7 +9,19 @@ li{
     margin-left: .6em;
     line-height: 26px;
     margin-top: .5rem;
+    /* margin-bottom: -10px; */
+    animation: navAnimation 2s 1 linear;
 }
 .navLinks h4 {
     margin: 0;
+    font-variant: all-small-caps;
+    font-size: 1.2em;
+}
+@keyframes navAnimation {
+    from{
+        display: none;
+    }
+    to{
+        display: initial;
+    }
 }

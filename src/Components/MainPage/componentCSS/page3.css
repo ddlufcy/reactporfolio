@@ -1,8 +1,48 @@
 .skills{
     color: #f8f8f8;
     height: 100vh;
-     margin-left: .4em;
+   margin-left: .4em;
 }
 .skills h3 {
    padding: 1em;
 }
+.skillLogos{
+   display: inline-grid;
+   grid-template-columns: repeat(4, 23vw);
+   grid-template-rows: repeat(3, 15vh);
+} 
+
+.skillLogos img {
+   padding: 10px;
+   margin: 3px 0px 3px 0px;
+   max-width: 90px;
+   max-height: 90px;
+   /* justify-self: stretch;
+   align-self: center; */
+}
+#expressLogo{
+   background-color: ivory;
+}
+figcaption{
+   display: inline;
+}
+@media screen and (height: 812px) and (width: 375px) {
+   .skillLogos{
+      display: inline-grid;
+      grid-template-columns: repeat(4, 24vw);
+      grid-template-rows: repeat(3, 25vh);
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      align-self: end;
+      justify-items: center;
+   } 
+   .skillLogos img {
+      align-self: center;
+      place-self: center;
+      padding: 5px 0px 5px 0px;
+      margin: 20px -10px 6px 12px;
+      max-width: 70px;
+      max-height: 90px;
+   }
+}
+

@@ -4,7 +4,7 @@ const Page4 = () => {
     return(
         <div className="linkedPage">
              <div className="page4 card skills">
-               <h3>Contact</h3>  
+               <h3>Projects</h3>  
             </div>
         </div>
     )

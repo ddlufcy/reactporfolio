@@ -22,7 +22,7 @@ const Topnav = () => {
                    <h4><Link to="/" style={navStyle}activeStyle={{color: 'tomato'}}>Home</Link></h4>
                    <h4><Link to="/Page2"style={navStyle}activeStyle={{color: 'tomato'}}>About</Link></h4>
                    <h4><Link to="/Page3" style={navStyle}activeStyle={{color: 'tomato'}}>Skills</Link></h4>
-                   <h4><Link to="/Page4" style={navStyle}activeStyle={{color: 'tomato'}}>Contact</Link></h4>   
+                   <h4><Link to="/Page4" style={navStyle}activeStyle={{color: 'tomato'}}>Projects</Link></h4>   
            </div>
          
            <div className="navRoutes">

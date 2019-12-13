@@ -1,0 +1,37 @@
+.about h4{
+    padding: 1px 16px;
+    font-variant: all-small-caps;
+    font-size: 25px;
+}
+
+.bioText{
+    font-family: 'Courier New', Courier, monospace;
+    font-kerning: auto;
+    letter-spacing: 1px;
+    padding: 4px 15px;
+}
+#profilePic{
+    max-width: 217px;
+    max-height: 330px;
+    margin: 2% 0% 0% 10%;
+    border-radius: 25px;
+}
+
+/* iPhone X */
+@media screen and (height: 812px) and (width: 375px){
+    body{
+        overflow-y: hidden;
+    }
+    .navRoutes{
+        margin-top: 12px;
+    }
+    .bioText{
+        padding: 0px 15px;
+    }
+    #profilePic{
+        max-width: 195px;
+        max-height: 170px;
+        margin-left: 121px;
+        border-radius: 10px;
+    }
+}

@@ -2,6 +2,7 @@
  body{
      background: linear-gradient(130deg, #111111, #1a1919 115%); 
      max-height: 100vh;
+     overflow-y: hidden;
  }
 .topNavBar {
     /* display: flex;
@@ -12,9 +13,17 @@
 .topNavBar li {
     display: inline;
 }
+@media screen and (height: 812px){
+    .linkedPage{
+        height: 73vh;
+    }
+    .nameTitle{
+        bottom: -48vh !important;
+    }
+}
 .linkedPage{
     margin: 1em;
-    background: linear-gradient(130deg, #111111, #272525 115%); 
+    background: linear-gradient(130deg, #111111, #3f3944 115%); 
     animation: moveIt 10s ease infinite ;
     background-size: 400% 400%;
     height: 70vh;
