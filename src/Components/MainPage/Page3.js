@@ -15,14 +15,14 @@ const Page3 = () => {
             <div className="page3 card skills">
                <h3>Skills</h3>  
                 <div className="skillLogos">
-                  <span><img id="reactLogo" src={reactPic} />  <figcaption>React</figcaption></span>
-                  <span><img id="javaScriptLogo" src={javaScript} />  <figcaption>JavaScript</figcaption></span>
-                  <span><img id="HtmlLogo" src={html5} />  <figcaption>Html5</figcaption></span>
-                  <span><img id="angularLogo" src={angular} />  <figcaption>Angular</figcaption></span>
-                  <span><img id="css3Logo" src={css3} />  <figcaption>CSS3</figcaption></span>
-                  <span><img id="expressLogo" src={express} />  <figcaption>Express JS</figcaption></span>
-                  <span><img id="nodejsLogo" src={nodejs} />  <figcaption>Node JS</figcaption></span>
-                  <span><img id="postgresLogo" src={postgres} />  <figcaption>PosgreSQL</figcaption></span>
+                  <span><img id="reactLogo" src={reactPic} /> <br /> <figcaption>React</figcaption></span>
+                  <span><img id="javaScriptLogo" src={javaScript} /> <br />  <figcaption>JavaScript</figcaption></span>
+                  <span><img id="HtmlLogo" src={html5} /> <br />  <figcaption>Html5</figcaption></span>
+                  <span><img id="angularLogo" src={angular} /> <br />  <figcaption>Angular</figcaption></span>
+                  <span><img id="css3Logo" src={css3} /><br />   <figcaption>CSS3</figcaption></span>
+                  <span><img id="expressLogo" src={express} /><br />   <figcaption>Express JS</figcaption></span>
+                  <span><img id="nodejsLogo" src={nodejs} /><br />   <figcaption>Node JS</figcaption></span>
+                  <span><img id="postgresLogo" src={postgres} /> <br />  <figcaption>PosgreSQL</figcaption></span>
                 </div>
             </div>
            

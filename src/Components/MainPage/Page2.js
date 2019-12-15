@@ -1,6 +1,7 @@
 import React from 'react';
 import Pic from './assets/willchestnut.jpg';
 
+
 import './componentCSS/Page2.css';
 const Page2 = () => {
     return(

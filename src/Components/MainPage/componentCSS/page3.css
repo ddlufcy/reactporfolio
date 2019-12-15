@@ -10,6 +10,10 @@
    display: inline-grid;
    grid-template-columns: repeat(4, 23vw);
    grid-template-rows: repeat(3, 15vh);
+   align-items: center;
+   justify-items: center;
+   background-color: transparent;
+   text-align: center;
 } 
 
 .skillLogos img {
@@ -21,10 +25,14 @@
    align-self: center; */
 }
 #expressLogo{
-   background-color: ivory;
+   border-radius: 3px;
+   background-color: #f8f8f8f7;
+   justify-self: center;
 }
 figcaption{
    display: inline;
+   font-family: 'Montserrat', sans-serif;
+   font-variant: small-caps;
 }
 @media screen and (height: 812px) and (width: 375px) {
    .skillLogos{
@@ -33,7 +41,9 @@ figcaption{
       grid-template-rows: repeat(3, 25vh);
       font-family: 'Montserrat', sans-serif;
       text-align: center;
-      align-self: end;
+      align-items: center;
+      justify-items: center;
+      /* align-self: end; */
       justify-items: center;
    } 
    .skillLogos img {

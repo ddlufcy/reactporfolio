@@ -1,0 +1,70 @@
+.projects{
+    width: 100vw;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1em;
+    align-items: center;
+    justify-items: center;
+    
+}
+.page4 h3 {
+    color: #f8f8f8;
+    padding: 1px 16px;
+    font-feature-settings: "smcp", "c2sc";
+    font-variant: all-small-caps;
+    font-size: 25px;
+}
+.card{
+    /* max-width: 28vw;
+    max-height: 18vh; */
+    background-color: rgb(37, 34, 34);
+}
+img{
+    max-width: 350px;
+    max-height: 350px;
+}
+#aqi{
+    grid-row: 1;
+    grid-column: 1;
+}
+#loan{
+    grid-row: 1;
+    grid-column: 2;
+}
+#weight{
+    grid-row: 1;
+    grid-column: 3;
+}
+#task{
+    grid-row: 2;
+    grid-column: 1;
+}
+#blueBadge{
+    grid-row: 2;
+    grid-column: 2;
+}
+#git{
+    grid-row: 2;
+    grid-column: 3;
+    color: #f8f8f8f8;
+    font-size: 80px;
+    justify-self: center;
+}
+a {
+    margin: 0;
+    text-decoration: none;
+    /* display: inline; */
+}
+figcaption{
+    grid-row: 2;
+    grid-column: 3;
+    color: #f8f8f8;
+    align-self: end;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+    
+}
+#emailName{
+    display: inline;
+}
