@@ -1,9 +1,9 @@
 .projects{
     width: 100vw;
     display: inline-grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 1em;
+    grid-gap: .8em;
     align-items: center;
     justify-items: center;
     
@@ -62,9 +62,30 @@ figcaption{
     color: #f8f8f8;
     align-self: end;
     margin-bottom: 1em;
-    font-size: 1.1em;
+    font-size: 1em;
     
 }
 #emailName{
     display: inline;
+}
+@media screen and (height: 812px) and (width: 375px){
+    body{
+        overflow-y: scroll;
+    }
+    .linkedPage .page4{
+        background-color: #111111;
+    }
+    a{
+        margin: 1em;
+    }
+    figcaption{
+        margin-bottom: 10px;
+        font-size: 11px;
+        transform: scale(0.7);
+        justify-self: baseline;
+    }
+    .git{
+        font-size: 50px;
+    }
+   
 }

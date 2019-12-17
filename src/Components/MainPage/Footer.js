@@ -19,7 +19,7 @@ const Footer = () => {
                  <a className="logo" href="https://github.com/ddlufcy">
                   <SvgIcon className="icon" component={GitHubIcon} />
                  </a>
-                 <a onClick={() => setEmail("ddlufcy@gmail.com")} className="logo" >
+                 <a id="mailIcon" onClick={() => setEmail("ddlufcy@gmail.com")} className="logo" >
                     <p id="emailName">{email}</p>
                      <SvgIcon className="icon" component={MailOutlineIcon} />
                  </a>

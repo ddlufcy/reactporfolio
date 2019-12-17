@@ -44,3 +44,15 @@ a{
         transform: rotate(-15deg)
     }
 }
+@media screen and (height: 812px) and (width: 375px){
+    .footer{
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+    .icon{
+        margin: 0px;
+        font-size: 1.5rem;
+    }
+    
+}
