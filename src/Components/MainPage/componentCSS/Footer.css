@@ -1,7 +1,8 @@
 .footer{
     color: #f8f8f8;
-    position: fixed;
-    bottom: 10px;
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 0;
     text-align: center;
     animation: moveFooter 1s 1 linear;
 }
@@ -19,7 +20,7 @@ a{
 .adress {
     font-style: oblique;
 }
-
+/* 
 @keyframes moveFooter {
     from{
         bottom: -50px;
@@ -27,7 +28,7 @@ a{
     to{
         bottom: 0px;
     }
-}
+} */
 .icon{
     animation: shake 3000ms linear alternate;
     animation-iteration-count: infinite;
@@ -46,9 +47,12 @@ a{
 }
 @media screen and (height: 812px) and (width: 375px){
     .footer{
+        margin-top: 95vh;
         display: flex;
         flex-wrap: nowrap;
-
+        position: sticky;
+        position: -webkit-sticky;
+        bottom: 0;
     }
     .icon{
         margin: 0px;

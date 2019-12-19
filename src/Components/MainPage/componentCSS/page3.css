@@ -21,8 +21,13 @@
    margin: 3px 0px 3px 0px;
    max-width: 90px;
    max-height: 90px;
+   /* background-color: #f8f8f81e; */
+   border-radius: 10px;
    /* justify-self: stretch;
    align-self: center; */
+}
+.skillLogos img:hover{
+   transform: scale(1.2);
 }
 #expressLogo{
    border-radius: 3px;
@@ -35,6 +40,9 @@ figcaption{
    font-variant: small-caps;
 }
 @media screen and (height: 812px) and (width: 375px) {
+   body{
+      overflow-y: scroll;
+   }
    .skillLogos{
       display: inline-grid;
       grid-template-columns: repeat(4, 24vw);

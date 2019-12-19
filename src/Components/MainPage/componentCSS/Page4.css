@@ -2,10 +2,10 @@
     width: 100vw;
     display: inline-grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
     grid-gap: .8em;
     align-items: center;
-    justify-items: center;
+    justify-items: baseline;
     
 }
 .page4 h3 {
@@ -54,7 +54,15 @@ img{
 a {
     margin: 0;
     text-decoration: none;
+    padding-left: 2px;
     /* display: inline; */
+}
+a img{
+    border-radius: 8px;
+}
+a p {
+    font-kerning: auto;
+    font-family: 'Montserrat', sans-serif;
 }
 figcaption{
     grid-row: 2;
@@ -63,7 +71,11 @@ figcaption{
     align-self: end;
     margin-bottom: 1em;
     font-size: 1em;
-    
+}
+a:hover{
+    transform: scale(1.1);
+    transition-duration: 0600ms;
+    border-radius: 4px;
 }
 #emailName{
     display: inline;
@@ -71,6 +83,9 @@ figcaption{
 @media screen and (height: 812px) and (width: 375px){
     body{
         overflow-y: scroll;
+    }
+    .projects{
+        justify-items: baseline;
     }
     .linkedPage .page4{
         background-color: #111111;
@@ -86,6 +101,9 @@ figcaption{
     }
     .git{
         font-size: 50px;
+    }
+    #gitItem{
+        height: 160px;
     }
    
 }

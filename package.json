@@ -1,5 +1,6 @@
 {
   "name": "minimal1-app",
+  "homepage": "http://daniellufcy.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

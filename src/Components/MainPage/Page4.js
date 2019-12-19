@@ -15,12 +15,12 @@ const Page4 = () => {
              <div className="page4 ">
                <h3>Projects</h3>  
                 <div className="projects">
-                      <a href="https://ddlufcy-api-project.firebaseapp.com/"><img id="aqi" src={AQIAPI} alt="aqi" /><p>generic placeholder text</p></a> 
-                      <a href="https://ddlufcy.github.io/Loan-Calculator/"><img  id="loan" src={Loan} alt="loan"/> <p>generic placeholder text</p></a> 
-                      <a href="https://ddlufcy.github.io/Weight-Converter/"><img id="weight" src={Weight}  alt="weight" /> <p>generic placeholder text</p></a>
-                      <a href="https://ddlufcy.github.io/Task-List/"><img id="task" src={Task}  alt="task" /> <p>generic placeholder text</p></a>
-                      <a href="https://github.com/ddlufcy/blueBadgeClient"><img id="blueBadge" src={BlueBadge}  alt="blue badge" /> <p>generic placeholder text</p></a> 
-                      <a href="https://github.com/ddlufcy"> <SvgIcon id="git"component={GitHubIcon} alt="github" />
+                      <a href="https://ddlufcy-api-project.firebaseapp.com/"><img id="aqi" src={AQIAPI} alt="aqi" /><p>RESTful API using OpenAQ API.</p></a> 
+                      <a href="https://ddlufcy.github.io/Loan-Calculator/"><img  id="loan" src={Loan} alt="loan"/> <p>JS Loan Calculating App.</p></a> 
+                      <a href="https://ddlufcy.github.io/Weight-Converter/"><img id="weight" src={Weight}  alt="weight" /> <p>Realtime weight converting app.</p></a>
+                      <a href="https://ddlufcy.github.io/Task-List/"><img id="task" src={Task}  alt="task" /> <p>TaskList using localstorage to persist data.</p></a>
+                      <a href="https://github.com/ddlufcy/blueBadgeClient"><img id="blueBadge" src={BlueBadge}  alt="blue badge" /> <p>Fullstack React application using Postgresql and Node.</p></a> 
+                      <a id="gitItem" href="https://github.com/ddlufcy"> <SvgIcon id="git"component={GitHubIcon} alt="github" />
                        <figcaption>Many more projects on my GitHub</figcaption></a>
 
                </div>

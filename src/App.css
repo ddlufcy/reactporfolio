@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Courier+Prime|Montserrat:400,500,600&display=swap");
  body{
-     background: linear-gradient(130deg, #111111, #1a1919 115%); 
-     max-height: 100vh;
-     overflow-y: hidden;
+     background: linear-gradient(130deg, #111111, #1a1919 115%);
+     max-height: 100vh; 
+     overflow-y: scroll;
  }
 .topNavBar {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; */
+    max-height: 100vh;
 }
 .topNavBar li {
     display: inline;
@@ -51,10 +48,14 @@
     min-height: 100%;
 }
 .navRoutes{
-    width: 100%;
-    min-height: 100%;
+    width: 100vw;
+    max-height: 100vh;
 }
 .footer {
+    position: fixed;
+    left: 0;
+     bottom: 0;
+     width: 100%;
     text-align: center;
-    width: 100vw;
+
 }
