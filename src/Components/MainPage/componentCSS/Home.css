@@ -1,6 +1,6 @@
 .home{
     margin: 0;
-    height: 90vh;
+    height: 100%;
     overflow-y: hidden;
 }
 .home h3 {
@@ -11,7 +11,7 @@
    margin-left: 2em;
    margin-left: 2em;
    position: relative;
-   bottom: -51vh;
+   top: 30em;
 }
 .nameTitle h3 {
     margin: 0;

@@ -47,12 +47,12 @@ a{
 }
 @media screen and (height: 812px) and (width: 375px){
     .footer{
-        margin-top: 95vh;
-        display: flex;
-        flex-wrap: nowrap;
-        position: sticky;
-        position: -webkit-sticky;
+        position: fixed;
+        left: 0;
         bottom: 0;
+         width: 100%;
+        text-align: center;
+    
     }
     .icon{
         margin: 0px;

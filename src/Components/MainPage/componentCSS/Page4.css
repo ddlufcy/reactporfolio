@@ -105,5 +105,8 @@ a:hover{
     #gitItem{
         height: 160px;
     }
+    .footer{
+        grid-row-start: 7;
+    }
    
 }
