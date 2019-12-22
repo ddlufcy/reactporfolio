@@ -5,6 +5,8 @@
     bottom: 0;
     text-align: center;
     animation: moveFooter 1s 1 linear;
+    display: inline;
+    margin-top: 10px;
 }
 .footer h5{
     display: inline;
@@ -46,17 +48,21 @@ a{
     }
 }
 @media screen and (height: 812px) and (width: 375px){
-    .footer{
+    /* .footer{
         position: fixed;
         left: 0;
         bottom: 0;
          width: 100%;
         text-align: center;
     
-    }
+    } */
     .icon{
         margin: 0px;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
+    a{
+      margin: 0.3em;  
+    }
+    
     
 }

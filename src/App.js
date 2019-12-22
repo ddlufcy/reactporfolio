@@ -12,7 +12,7 @@ const App = () => {
      <Router>
       <Topnav />
      </Router>   
-    <Footer /> 
+    
     </div>
     
   );

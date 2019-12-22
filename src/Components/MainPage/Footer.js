@@ -12,7 +12,7 @@ const Footer = () => {
 
     return(
         <div className="footer">
-                 <h5>Made with &hearts; by Daniel Lufcy 2019</h5>
+                 {/* <h5>Made with &hearts; by Daniel Lufcy 2019</h5> */}
                  <a className="logo" href="https://www.linkedin.com/in/daniel-lufcy-93903a17b/">
                   <SvgIcon className="icon" component={LinkedInIcon} />
                  </a>

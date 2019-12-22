@@ -4,6 +4,7 @@ import Home from './Home';
 import Page2 from './Page2';
 import Page3 from './Page3';
 import Page4 from './Page4';
+import Footer from './Footer';
 import './componentCSS/Nav.css';
 
 
@@ -22,7 +23,8 @@ const Topnav = () => {
                    <h4><Link to="/" style={navStyle}activeStyle={{color: 'tomato'}}>Home</Link></h4>
                    <h4><Link to="/Page2"style={navStyle}activeStyle={{color: 'tomato'}}>About</Link></h4>
                    <h4><Link to="/Page3" style={navStyle}activeStyle={{color: 'tomato'}}>Skills</Link></h4>
-                   <h4><Link to="/Page4" style={navStyle}activeStyle={{color: 'tomato'}}>Projects</Link></h4>   
+                   <h4><Link to="/Page4" style={navStyle}activeStyle={{color: 'tomato'}}>Projects</Link></h4>  
+                    <Footer />
            </div>
          
            <div className="navRoutes">
